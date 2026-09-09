@@ -161,7 +161,7 @@ int main(){
     int kembaliansss = kembalian;
 
     while (i < jumlahPecahan){
-        if (kasir[i].nilai <= kembalian){
+        if (kasir[i].nilai <= kembalian && kasir[i].stok > 0){
             kembalian -= kasir[i].nilai;
             kasir[i].stok--;
             catatan[i].stok++;
