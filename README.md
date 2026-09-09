@@ -10,10 +10,10 @@ Program ini adalah simulasi mesin kasir yang bertugas memberikan kembalian denga
 
 ## Cara Instalasi dan Penggunaan
 1. Pastikan kamu sudah memiliki *compiler* C (seperti GCC) yang terinstal di komputermu.
-2. Buka terminal atau *command prompt*, lalu arahkan ke direktori tempat file `tes2.c` berada.
+2. Buka terminal atau *command prompt*, lalu arahkan ke direktori tempat file `main.c` berada.
 3. Kompilasi program dengan menjalankan perintah berikut:
    ```bash
-   gcc tes2.c -o kasir
+   gcc main.c -o kasir
    ```
 4. Jalankan program hasil kompilasi:
    * **Pengguna Mac/Linux:** `./kasir`
